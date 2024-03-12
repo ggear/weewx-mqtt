@@ -88,7 +88,7 @@ Paho client tls_set method.  Refer to Paho client documentation for details:
             #   OpenSSL >= 1.0.1 supports tlsv11 and tlsv12
             #   OpenSSL >= 1.1.1 support TLSv1.3 (use tls_version = tls)
             #   Check your OpenSSL protocol support with:
-            #   openssl s_client -help 2>&1  > /dev/null | egrep "\-(ssl|tls)[^a-z]"
+            #   openssl s_client -help 2>&1  > /dev/null | egrep "\\-(ssl|tls)[^a-z]"
             tls_version = tlsv12
             # Allowable encryption ciphers (optional).
             #   To specify multiple cyphers, delimit with commas and enclose
